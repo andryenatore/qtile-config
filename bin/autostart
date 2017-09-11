@@ -1,0 +1,6 @@
+#!/bin/sh
+
+killall nm-applet &
+ps U andry | cut -d " " -f 1 | xargs kill &
+#/usr/bin/nm-applet &
+feh --bg-scale ~/App/gentoo_matrix.png &
